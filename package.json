@@ -1,0 +1,21 @@
+{
+  "name": "alrightylabs",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Mike",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "demo:predev": "pnpm -r --stream --filter painel-labs build",
+    "demo:dev": "pnpm --filter \"{apps/painel-demo/**}\" dev",
+    "demo:build": "pnpm -r --stream --filter painel-labs --filter \"{apps/painel-demo/**}\" build",
+    "painel:dev": "pnpm --filter painel-labs dev",
+    "painel:build": "pnpm --filter painel-labs build",
+    "prebuild": "pnpm -r lint",
+    "build": "pnpm -r --stream build",
+    "build:watch": "pnpm -r --parallel build:watch",
+    "lint": "pnpm -r lint",
+    "up": "pnpm -r up"
+  }
+}

@@ -1,0 +1,7 @@
+# Logs
+logs
+*.log
+pnpm-debug.log*
+
+# misc
+node_modules
