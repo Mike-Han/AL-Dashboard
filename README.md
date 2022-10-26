@@ -41,16 +41,56 @@ pnpm i
 
 ## Usage
 
-### Painel Demo Site - Development
+### Painel Labs
+
+#### Components Development Site
+
+```bash
+# terminal
+pnpm painel:dev
+```
+
+Visit <http://localhost:3330>
+
+#### Components Build
+
+```bash
+# terminal
+pnpm painel:build
+```
+
+Generated files in `painel-labs\dist` is ready to be served.
+
+#### Storybook Development Site
+
+```bash
+# terminal
+pnpm painel:storybook:dev
+```
+
+Visit <http://localhost:3331>
+
+#### Storybook Build
+
+```bash
+# terminal
+pnpm painel:storybook:build
+```
+
+Generated files in `painel-labs\storybook-static` is ready to be served.
+
+### Painel Demo
+
+#### Demo Development Site
 
 ```bash
 # terminal
 pnpm demo:dev
 ```
 
-Visit <http://localhost:3031>
+Visit <http://localhost:3332>
 
-### Painel Demo Site - Build
+#### Demo Build
 
 ```bash
 # terminal

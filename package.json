@@ -10,6 +10,8 @@
     "demo:predev": "pnpm -r --stream --filter painel-labs build",
     "demo:dev": "pnpm --filter \"{apps/painel-demo/**}\" dev",
     "demo:build": "pnpm -r --stream --filter painel-labs --filter \"{apps/painel-demo/**}\" build",
+    "painel:storybook:dev": "pnpm --filter painel-labs storybook:dev",
+    "painel:storybook:build": "pnpm --filter painel-labs storybook:build",
     "painel:dev": "pnpm --filter painel-labs dev",
     "painel:build": "pnpm --filter painel-labs build",
     "prebuild": "pnpm -r lint",
